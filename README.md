@@ -1,0 +1,2 @@
+# mindX
+bài tập
