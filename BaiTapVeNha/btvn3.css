@@ -1,0 +1,78 @@
+/* Định dạng cho file btvn3 */
+
+body {
+    margin: 1em 2em;
+    padding: 100 100;
+    font-family: Arial;
+    background-image: url(../BaiTapThucHanh/anhnen4.jpg);
+    background-position: center;
+    background-size: 158%;
+    
+    
+    transition-duration: 10s;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(9, 6, 112);
+    transition: all, 3S ease;
+}
+
+h2 {
+    text-decoration: underline;
+    color: rgb(68, 84, 138);
+    transition: all, 3S ease;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: aliceblue;
+    color: rgb(228, 224, 182);
+    transition: all, 3S ease;
+}
+h4 {
+    font-weight: bold;
+    transition: all, 3S ease;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 40%;
+    transition: all, 3S ease;
+}
+
+p{
+    transition: all, 3S ease;
+}
+
+h1:hover {
+  
+    color: red;
+    transform: scale(1.1,1.2);
+}
+
+h2:hover, h4:hover {
+    
+    color: blueviolet;
+    transform: scale(1,1.3);
+}
+
+h3:hover {
+    transform: scale(1.2,1.3);
+}
+img:hover {
+    transform: scale(1.2,1.1);
+}
+
+p:hover {
+    transform: scale(1,1.4);
+}
+
+* {
+    cursor: zoom-in;
+}
+
