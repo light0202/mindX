@@ -17,9 +17,23 @@ function numberOneTriangle(a) {
         
     }
 
+    function checkInput(a) {
+   
+        if (isNaN(a) ){
+            alert ("Vui lòng nhập số")
+            return false
+        } else if (a>10 ||a<1){
+            alert ("Vui lòng nhập số từ 1-10")
+            return false
+        }
+        return true
+    }
+
 
 
 sumit.onclick = ()=> {
-    numberOneTriangle(a.value)
+    checkInput(a.value)
+    if(checkInput(a.value)){
+    numberOneTriangle(a.value)}
 }
 
